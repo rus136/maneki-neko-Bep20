@@ -1,0 +1,2 @@
+# maneki-neko
+Crytpo Asset
