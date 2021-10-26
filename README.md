@@ -3,10 +3,10 @@ pragma solidity ^0.8.2;
 contract Token {
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
-    uint public totalSupply = 1000000000000000 * 10 ** 18;
+    uint public totalSupply = 999,999,999,999 * 10 ** 8;
     string public name = "Maneki-Neko Coin";
     string public symbol = "MNC";
-    uint public decimals = 18;
+    uint public decimals = 8;
     
     event Transfer(address indexed from, address indexed to, uint value);
     event Approval(address indexed owner, address indexed spender, uint value);
